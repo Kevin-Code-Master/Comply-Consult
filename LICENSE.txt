@@ -1,0 +1,9 @@
+Copyright (c) 2025 Comply Consult
+
+All rights reserved.
+
+This website’s source code, visual content, structure, and related files are the exclusive property of Comply Consult. 
+
+Unauthorized copying, distribution, modification, reuse, or reverse-engineering is strictly prohibited without express written permission.
+
+For licensing inquiries, please contact: info@complyconsult.com
