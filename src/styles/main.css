@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+}
 body {
   font-family: 'Poppins',Roboto, sans-serif;
   margin: 0;
@@ -26,6 +29,11 @@ header {
   flex-wrap: wrap;
 }
 
+#logoImg {
+  height: 15vh;
+  width: auto;
+  border-radius: 100%;
+}
 .logo {
   height: 15vh;
   width: auto;
@@ -177,6 +185,50 @@ font-size:0.8rem;
   transform: translateY(-5px);
   cursor: pointer;
 }
+/* FACTS: impact Section */
+#facts {
+  background-color: #f8f9fa;
+  padding: 3rem 1rem;
+  text-align: left;
+}
+
+.facts-grid {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  gap: 2rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+.fact {
+  background: white;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  flex: 1;
+  min-width: 200px;
+  max-width: 300px;
+  transition: transform 0.3s ease;
+}
+
+.fact:hover {
+  transform: translateY(-5px);
+  background-color: #e0ecf4;
+  cursor: pointer;
+}
+
+.fact h3 {
+  font-size: 2.5rem;
+  color: #1b263b;
+  margin-bottom: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.fact p {
+  font-size: 1rem;
+  color: #333;
+}
 
 #our-team .card:hover {
   transform: translateY(-5px);
@@ -198,6 +250,10 @@ font-size:0.8rem;
   align-items:center;
 }
 .team_img {
+  width: inherit;
+  height: 100%;
+}
+#member_1 {
   width: inherit;
   height: 100%;
 }
@@ -239,13 +295,7 @@ font-size:0.8rem;
 .contact-form button:hover {
   background-color: #0a3d62;
 }
-/*FOOTER SECTION*/
-footer {
-  background: #1b263b;
-  color: white;
-  text-align: center;
-  padding: 1rem;
-}
+
 /*For Responsiveness on different windows*/
 
 /* --- New styles for nav toggle --- */
@@ -256,6 +306,62 @@ footer {
   font-size: 1.5rem;
   color: white;
   cursor: pointer;
+}
+/*FOOTER SECTION*/
+footer {
+  background: #1b263b;
+  color: white;
+  text-align: center;
+  padding: 1.5rem 1rem;
+}
+
+.footer-links {
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.footer-links a {
+  color: white;
+  margin: 0 0.5rem;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #e0ecf4;
+}
+
+.footer-links i {
+  margin-left: 0.4rem;
+  font-size: 1.2rem;
+  vertical-align: middle;
+  color: #e0ecf4;
+  transition: transform 0.3s ease;
+}
+
+.footer-links i:hover {
+  transform: scale(1.2);
+  color: #fff;
+}
+/* Floating Help button */
+.floating-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #1b263b;
+  color: white;
+  padding: 0.8rem 1.2rem;
+  border-radius: 50px;
+  text-decoration: none;
+  font-size: 0.9rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  z-index: 999;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.floating-btn:hover {
+  background-color: #0a3d62;
+  transform: scale(1.05);
 }
 
 /* Show/hide nav menu in mobile */
