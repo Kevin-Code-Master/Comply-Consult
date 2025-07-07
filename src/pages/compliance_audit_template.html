@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title><%=htmlWebpackPlugin.options.title%></title>
+  <script src="https://js.stripe.com/v3/" defer></script>
+</head>
+<body>
+  <header>
+    <div class="logo-nav">
+      <img id="logoImg" alt="Comply Consult Logo" class="logo">
+      <h1>Comply Consult</h1>
+    </div>
+    <nav>
+      <a href="../index.html">Home</a>
+      <a href="../services.html">Services</a>
+      <a href="../team.html">Our Team</a>
+      <a href="../index.html#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section class="intro">
+      <h2>Compliance Audits</h2>
+      <p>
+        Compliance audits are systematic reviews of your organization's internal policies,
+        procedures, and operational activities to ensure adherence to regulatory standards,
+        industry best practices, and internal governance structures. Our audits help you identify
+        gaps, mitigate risks, and improve transparency.
+      </p>
+    </section>
+
+    <section class="resources">
+      <h3>Premium Resources (Available After Subscription)</h3>
+      <p>These exclusive, downloadable resources are available upon payment/subscription:</p>
+      <div class="resource-cards">
+        <div class="card">
+          <h4>Compliance Framework Template</h4>
+          <p>Structured layout for designing a tailored compliance framework.</p>
+          <button class="locked">🔒 Subscribe to Access</button>
+        </div>
+        <div class="card">
+          <h4>Annual Compliance Workplans</h4>
+          <p>Ready-to-adapt templates for year-round compliance planning.</p>
+          <button class="locked">🔒 Subscribe to Access</button>
+        </div>
+        <div class="card">
+          <h4>Audit Checklist Template</h4>
+          <p>Step-by-step checklist to guide internal compliance reviews.</p>
+          <button class="locked">🔒 Subscribe to Access</button>
+        </div>
+        <div class="card">
+          <h4>Compliance Monitoring Log</h4>
+          <p>Track and evaluate compliance activities and follow-ups.</p>
+          <button class="locked">🔒 Subscribe to Access</button>
+        </div>
+        <div class="card">
+          <h4>Risk Assessment Tool</h4>
+          <p>Analyze potential compliance risks and document mitigation strategies.</p>
+          <button class="locked">🔒 Subscribe to Access</button>
+        </div>
+      </div>
+    </section>
+
+    <div id="subscribeContainer">
+      <p>Want access to all premium compliance templates?</p>
+      <button id="subscribeBtn">Subscribe Now</button>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Comply Consult. All rights reserved.</p>
+  </footer>
+</body>
+</html>

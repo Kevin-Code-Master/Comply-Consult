@@ -1,0 +1,49 @@
+/* File: src/styles/team.css */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f7f7f7;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+header {
+  background: #1b263b;
+  color: white;
+  padding: 1rem;
+}
+/* For the logo image in the header */
+#logoImg {
+  height: 15vh;
+  width: auto;
+  border-radius: 100%;
+}
+.logo {
+  height: 15vh;
+  width: auto;
+  border-radius: 100%;
+}
+
+nav a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+
+.team-member {
+  background: white;
+  margin: 1rem auto;
+  padding: 1rem;
+  max-width: 600px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+.team-member img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
